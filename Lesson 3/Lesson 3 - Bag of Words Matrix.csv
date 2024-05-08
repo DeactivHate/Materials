@@ -1,0 +1,25 @@
+,,,,Bag of Words,,,,,,,,,,
+Surname,Name,id,text,is,hello,the,round,world,!,hate,I,spinach,sum,HateSpeech
+Surname,Name,001,Hello World !,0,1,0,0,1,1,0,0,0,3,0
+Surname,Name,002,The World is round,1,0,1,1,1,0,0,0,0,4,0
+Surname,Name,003,I hate spinach!,0,0,0,0,0,1,1,1,1,4,0
+,,004,,,,,,,,,,,,
+,,005,,,,,,,,,,,,
+,,006,,,,,,,,,,,,
+,,007,,,,,,,,,,,,
+,,008,,,,,,,,,,,,
+,,009,,,,,,,,,,,,
+,,010,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"Add as many rows as needed, one for each student or participant",,"Add texts to be ""vectorized"" manually, through the Bag of Words method.
+ (possibly containing hate speech or discriminatory expressions for an activity of awareness on how important word usage is) 
+
+triggering word present in the text = 1 
+triggering word NOT present in the text = 0",,"Add as many columns needed, one of each unigram or bigram. 
+
+These columns are intended for hosting ""offensive"" or ""triggering"" words.",,,,,,,,,"After having filled the word matrix with ones and zeroes, the sum of triggering words per text can be observed.  ","Ask students to mark 1 or 0 in this column if they consider the text is hateful or not.
+
+Engage in a comparison between the ""sum"" column and the ""Hate Speech"" column.
+What do you notice?"
